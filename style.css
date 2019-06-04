@@ -1,218 +1,231 @@
 body {
-  color: #070d12;
-  font-family: 'Space Mono', monospace;
-  font-size: 12px;
-  margin: 0;
-  padding: 0;
-  text-align: center;
+    color: #070d12;
+    font-family: 'Space Mono', monospace;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
 h4 {
-  color: #24425A;
-  font-size: 18px;
-  font-weight: 700;
+    color: #24425A;
+    font-size: 18px;
+    font-weight: 700;
 }
 
 .section-title {
-  font-family: 'Space Mono', monospace;
-  text-transform: uppercase;
-  font-size: 31px;
-  color: #e9ecee;
-  padding-top: 3%;
+    font-family: 'Space Mono', monospace;
+    text-transform: uppercase;
+    font-size: 31px;
+    color: #e9ecee;
+    padding-top: 3%;
 }
 
 .section-subtitle {
-  font-family: 'Space Mono', monospace;
-  text-transform: lowercase;
-  font-size: 16px;
-  color: #1c3448;
-  padding-bottom: 3%;
+    font-family: 'Space Mono', monospace;
+    text-transform: lowercase;
+    font-size: 16px;
+    color: #1c3448;
+    padding-bottom: 3%;
 }
 
+
 /* NAVIGATION */
+
 .wrapper-nav {
-  background: no-repeat url("http://i64.tinypic.com/hvtrfc.jpg") center;
+    background: no-repeat url("http://i64.tinypic.com/hvtrfc.jpg") center;
 }
 
 .navigation {
-  max-height: 800px;
-  overflow: hidden;
-  padding-top: 0;
+    max-height: 1180px;
+    overflow: hidden;
+    padding-top: 0;
 }
 
 .navigation.div {
-  background: #ECEEF4;
+    background: #ECEEF4;
 }
 
 .logo {
-  font-family: 'Rock Salt', cursive;
-  font-size: 25px;
-  color: #24425A;
-  padding-left: 115px;
+    font-family: 'Rock Salt', cursive;
+    font-size: 25px;
+    color: #24425A;
+    padding-left: 115px;
 }
 
 .navigation.row {
-  padding-top: 25px;
-  opacity: 1 !important;
+    padding-top: 25px;
+    opacity: 1 !important;
 }
 
 .navigation ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 0;
-  padding-top: 4px;
-  padding-right: 55px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    padding-top: 4px;
+    padding-right: 55px;
 }
 
 .navigation li {
-  align-items: flex-start;
+    align-items: flex-start;
 }
 
 .navigation a {
-  color: #5B8CA8;
-  font-family: 'Space Mono', monospace;
-  font-size: 14px;
-  text-transform: uppercase;
-  text-decoration: none;
+    color: #5B8CA8;
+    font-family: 'Space Mono', monospace;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 .navigation a:hover {
-  color: hotpink;
-  text-decoration: none;
+    color: hotpink;
+    text-decoration: none;
 }
 
 .wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 auto;
-  max-width: 750px;
-  padding-top: 120px;
-  padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 750px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .navigation.wrapper {
-  padding-top: 205px;
+    padding-top: 205px;
 }
 
 .welcome {
-  color: #FFF;
-  margin: 0 auto;
-  font-family: 'Homemade Apple', serif;
-  font-size: 40px;
+    color: #FFF;
+    margin: 0 auto;
+    font-family: 'Homemade Apple', serif;
+    font-size: 40px;
 }
 
 .nice {
-  font-family: 'Space Mono', monospace;
-  font-weight: bold;
-  font-size: 75px;
-  color: #fff;
-  text-transform: uppercase;
-  text-align: center;
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+    font-size: 75px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .btn button {
-  font-family: 'BioRhyme', serif;
-  font-weight: bold;
-  font-size: 16px;
-  background-color: #24425A;
-  text-transform: uppercase;
-  color: #fff;
-  border: 0;
-  border-radius: 25px;
-  padding: 18px 18px;
-  margin-top: 90px;
+    font-family: 'BioRhyme', serif;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #24425A;
+    text-transform: uppercase;
+    color: #fff;
+    border: 0;
+    border-radius: 25px;
+    padding: 18px 18px;
+    margin-top: 90px;
 }
 
 .button button:hover {
-  background-color: #9d9d9d;
-  color: #000000;
+    background-color: #9d9d9d;
+    color: #000000;
 }
 
+
 /* SERVICES */
+
 .wrapper-services {
-  background-color: #7B9CB4;
-  padding-bottom: 3%;
+    background-color: #7B9CB4;
+    padding-bottom: 3%;
 }
 
 .services-i {
-  text-align: center;
-  color: #ECEEF4;
-  border-radius: 50%;
-  border: solid #ECEEF4;
-  font-size: 16px;
-  padding: 20px;
-  width: 26px;
-  height: 26px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+    text-align: center;
+    color: #ECEEF4;
+    border-radius: 50%;
+    border: solid #ECEEF4;
+    font-size: 16px;
+    padding: 20px;
+    width: 26px;
+    height: 26px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
+
 /* PORTFOLIO */
+
+
 /* gallery */
+
 .gallery {
-  text-align: center;
+    text-align: center;
 }
 
 .wrapper-portfolio {
-  background-color: #5B8CA8;
+    background-color: #5B8CA8;
 }
 
 .grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
 }
 
 .grid-item {
-  padding: 20px;
-  font-size: 13px;
-  text-align: center;
+    padding: 20px;
+    font-size: 13px;
+    text-align: center;
 }
 
 .item-description {
-  text-align: center;
-  max-width: 150px;
+    text-align: center;
+    width: 150px;
+    background: #FFFFFF;
+    margin: 0 auto;
+    margin-top: -5.8%;
 }
 
 .grid-item img {
-  width: 150px;
-  height: 150px;
+    width: 150px;
+    height: 150px;
 }
 
+
 /* FOOTER */
+
 .social-media-icons {
-  padding: 2.5%;
-  word-spacing: 12px;
-  text-align: center;
+    padding: 2.5%;
+    word-spacing: 12px;
+    text-align: center;
 }
 
 .social-icon {
-  color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 .social-icon:hover {
-  color: #D2DCE6;
+    color: #D2DCE6;
 }
 
 .social-container {
-  color: #FFFFFF;
-  font-size: 30px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #000000;
-  min-width: 2em;
-  border-radius: 50%;
-  vertical-align: middle;
+    color: #FFFFFF;
+    font-size: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    min-width: 2em;
+    border-radius: 50%;
+    vertical-align: middle;
 }
 
 .social-container:after {
-  content: '';
-  float: left;
-  width: auto;
-  padding-bottom: 100%;
+    content: '';
+    float: left;
+    width: auto;
+    padding-bottom: 100%;
 }
